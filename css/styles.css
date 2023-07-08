@@ -193,7 +193,7 @@ img {
     min-width: 1158px;
     text-align: center;
     justify-content: center;
-    padding-bottom: 188px;
+    padding: 188px 0 188px;
     align-items: center;
 }
 .section-four {
@@ -268,7 +268,7 @@ img {
     font-style: normal
 }
 .button-web-studio {
-    display: flex;
+    display: block;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -278,8 +278,11 @@ img {
     color: #ffffff;
     cursor: pointer;
     padding-top: 48px;
-    max-width: 169px;
+    min-width: 169px;
     text-align: center;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 .button-web-studio:hover {
     background-color: #404BBF;
