@@ -199,15 +199,8 @@ img {
     display: flex;
     gap: 24px;
 }
-.visually-hidden {
-    position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
+.section-three {
+    padding-bottom: 120px;
 }
 .section-four {
     background-color: #F4F4FD;
@@ -221,8 +214,12 @@ img {
     text-transform: capitalize;
     color: var(--text-color);
     padding-top: 120px;
-    padding-bottom: 72px;
     justify-content: center;
+    margin-bottom: 72px;
+}
+.offer-list-staff {
+    display: flex;
+    gap: 24px;
 }
 .main-header {
     display: flex;
@@ -337,6 +334,9 @@ img {
 }
 .offer-list {
     width: calc((100% - 72px) / 4)
+}
+.offer-list-item {
+    width: calc((100% - 48px) / 3);
 }
 .catalog-container {
     display: flex;
