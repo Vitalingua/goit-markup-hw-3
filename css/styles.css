@@ -195,6 +195,10 @@ img {
 .section-two {
     padding: 120px 0 120px;
 }
+.offer-list-menu {
+    display: flex;
+    gap: 24px;
+}
 .visually-hidden {
     position: absolute;
     overflow: hidden;
