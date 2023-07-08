@@ -213,7 +213,6 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--text-color);
-    padding-top: 120px;
     justify-content: center;
     margin-bottom: 72px;
 }
