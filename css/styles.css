@@ -18,8 +18,7 @@ img {
 .container{
     margin:0 auto;
     padding: 0 15px 0 15px;
-    max-width: 1158px;
-    width: 100%;
+    width: 1158px;
 }
 .logo{
     line-height:1.17;
