@@ -318,6 +318,7 @@ img {
     max-width: 264px;
     padding-top: 16px;
     padding-bottom: 100px;
+    max-width: 264px;
 }
 .ul {
     list-style: none;
@@ -413,8 +414,7 @@ img {
         size: 16px;
         line-height: 133.333333%;
         background-color: #2E2F42;
-        padding-top: 100px;
-        padding-left: 156px;
+        padding: 100px 0 100px;
 }
 .footer-logo-one{
     background-color: #2E2F42;
@@ -425,6 +425,8 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .footer-logo-two{
