@@ -89,7 +89,6 @@ img {
 }
 .header-container {
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
     padding: 0 15px 0 15px;
     width: 1158px;
