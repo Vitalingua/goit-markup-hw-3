@@ -145,6 +145,7 @@ img {
     color: #2E2F42;
     letter-spacing: 0.02em;
     padding-right: 40;
+    padding: 24px 0 24px;
 }
 
 .header-menu-link:hover {
