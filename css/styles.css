@@ -35,9 +35,7 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.logo{
-    line-height:1.17;
-}
+
 :root{
     --primary-color: #4d5ae5;
     --background-color: #FFFFFF;
@@ -48,7 +46,7 @@ img {
     --address-color: #434455;
     --button: #e7e9fc;
 }
-.header-logo-one, .header-logo-span {
+.header-logo-one {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -349,7 +347,7 @@ img {
 }
 .main-header-portfolio {
     display: none;
-}
+} 
 .offer-list-container {
     display: flex;
 }
