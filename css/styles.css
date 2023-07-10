@@ -20,6 +20,16 @@ img {
     padding: 0 15px 0 15px;
     width: 1158px;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
 .logo{
     line-height:1.17;
 }
