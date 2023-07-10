@@ -359,9 +359,6 @@ img {
 .offer-list-item {
     width: calc((100% - 48px) / 3);
 }
-.catalog-container {
-    display: flex;
-}
 .team-container {
     display: flex;
     background-color: #F4F4FD;
@@ -376,22 +373,18 @@ img {
     justify-content: center;
     flex-direction: row;
 }
-.catalog-list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    width: calc((100%-48px)/3);
-    flex-direction: row;
-    align-content: space-between;
-    gap: 24px;
-    margin-top: 72px;
-    justify-content: center;
-    flex-wrap: wrap;
-    row-gap: 48px;
-}
 .catalog {
     width: calc((100% - 48px) / 3);
+}
+
+.catalog-list {
+    display: flex;
+    column-gap: 24px;
+    width: calc((100% - 48px) / 3);
+    flex-direction: row;
+    align-content: space-between;
+    margin-top: 72px;
+    justify-content: center;
 }
 .app-container {
     padding: 32px 16px;
