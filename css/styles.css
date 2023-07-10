@@ -11,6 +11,7 @@ ul {
     margin-top:0;
     padding-left: 0;
     margin-bottom: 0;
+    list-style: none;
 }
 img {
     display: block;
@@ -326,12 +327,6 @@ img {
     letter-spacing: 0.02em;
     max-width: 264px;
 }
-.ul {
-    list-style: none;
-}
-.team-container {
-    padding: 32px 16px 32px;
-}
 .team-member-list {
     background-color: #FFFFFF;
     flex-direction: row;
@@ -371,6 +366,7 @@ img {
     background-color: #F4F4FD;
     text-align: center;
     justify-content: center;
+    padding: 32px 16px 32px;
 }
 .offer-photo-container {
     display: flex;
@@ -423,7 +419,6 @@ img {
         padding: 100px 0 100px;
 }
 .footer-logo-one{
-    background-color: #2E2F42;
     color:#4D5AE5;
 font-family: "Raleway", sans-serif;
 font-weight: 800;
