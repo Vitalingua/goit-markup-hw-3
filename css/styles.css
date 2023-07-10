@@ -145,11 +145,9 @@ img {
     cursor: pointer;
     text-align: center;
     background-color: var(--button-background-color);
-    border: none;
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
     letter-spacing: 0.04em;
-}
 }
 .list {
     list-style: none;
