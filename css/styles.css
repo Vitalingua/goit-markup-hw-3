@@ -151,6 +151,7 @@ img {
     list-style: none;
     row-gap: 48px;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
 
