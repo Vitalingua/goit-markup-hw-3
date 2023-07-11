@@ -375,10 +375,6 @@ img {
 .catalog-list {
     display: flex;
     column-gap: 24px;
-    flex-direction: row;
-    align-content: space-between;
-    margin-top: 72px;
-    justify-content: center;
     flex-wrap: wrap;
     row-gap: 48px;
 }
