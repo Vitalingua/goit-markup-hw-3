@@ -77,7 +77,6 @@ img {
 }
 .header-menu {
     display: flex;
-    align-items: center;
     gap: 40px;
 }
 .header-nav {
