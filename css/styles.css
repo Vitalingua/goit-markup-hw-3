@@ -18,8 +18,8 @@ img {
 }
 .container{
     margin: 0 auto;
-    padding: 0 15px 0 15px;
-    width: 1158px;
+    padding: 0 15px;
+    max-width: 1158px;
 }
 .visually-hidden {
     position: absolute;
@@ -79,14 +79,14 @@ img {
     gap: 40px;
 }
 .header-nav {
-    display:flex;
+    display: flex;
     align-items: center;
     text-align: left;
 }
 .header-container {
     display: flex;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
     width: 1158px;
 }
 .header-studio-container {
