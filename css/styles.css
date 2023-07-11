@@ -124,8 +124,6 @@ img {
 
 .menu-list {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
@@ -149,9 +147,6 @@ img {
 }
 .list {
     list-style: none;
-    row-gap: 48px;
-    flex-wrap: wrap;
-    gap: 24px;
 }
 
 
