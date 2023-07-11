@@ -375,7 +375,6 @@ img {
 .catalog-list {
     display: flex;
     column-gap: 24px;
-    width: calc((100% - 48px) / 3);
     flex-direction: row;
     align-content: space-between;
     margin-top: 72px;
