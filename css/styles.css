@@ -149,6 +149,8 @@ img {
 }
 .list {
     list-style: none;
+    row-gap: 48px;
+    flex-wrap: wrap;
 }
 
 
@@ -372,13 +374,13 @@ img {
     flex-direction: row;
 }
 .catalog {
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px)/3);
 }
 
 .catalog-list {
     display: flex;
     column-gap: 24px;
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px)/3);
     flex-direction: row;
     align-content: space-between;
     margin-top: 72px;
