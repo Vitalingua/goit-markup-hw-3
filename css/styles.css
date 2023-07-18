@@ -18,7 +18,8 @@ img {
 }
 .container{
     padding: 0 15px;
-    max-width: 1158px;
+    width: 1158px;
+    margin: 0 auto;
 }
 .visually-hidden {
     position: absolute;
@@ -84,6 +85,7 @@ img {
     text-align: left;
 }
 .header-container {
+    display: flex;
     display: flex;
     margin: 0 auto;
     padding: 0 15px;
@@ -344,9 +346,6 @@ img {
 .main-header-portfolio {
     display: none;
 } 
-.offer-list-container {
-    display: flex;
-}
 .offer-list {
     width: calc((100% - 72px) / 4)
 }
@@ -354,14 +353,12 @@ img {
     width: calc((100% - 48px) / 3);
 }
 .team-container {
-    display: flex;
     background-color: #F4F4FD;
     text-align: center;
     justify-content: center;
     padding: 32px 16px 32px;
 }
 .offer-photo-container {
-    display: flex;
     background-color: #F4F4FD;
     text-align: center;
     justify-content: center;
